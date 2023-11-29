@@ -3,12 +3,12 @@
 # I expect better from you!
 
 CXX = g++
-CPPFILES= main.cpp
+CPPFILES= test3.cpp
 CPPFLAGS= -Wall
 LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system -lgomp
-EXE= mainApp
+EXE= test3App
 
-SRCS=main.cpp
+SRCS=test3.cpp
 OBJS=$(subst .cpp,.o,$(SRCS))
 
 #This rule says that each .o file depends on a .cpp file of the same name
